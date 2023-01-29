@@ -1,7 +1,6 @@
 
 import org.junit.Test;
 import org.junit.runner.JUnitCore;
-import bin.Calculator;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
