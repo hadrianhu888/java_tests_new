@@ -72,6 +72,7 @@ public class calculator {
         System.out.println("Mul: " + calc.Mul(a.value, b.value));
         System.out.println("Div: " + calc.Div(a.value, b.value));
         System.out.println("Mod: " + calc.mod(a.value, b.value));
+        System.exit(0);
     }
     
 }
