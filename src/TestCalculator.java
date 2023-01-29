@@ -31,13 +31,13 @@ public class TestCalculator {
         Calculator calculator = new Calculator();
         int result = calculator.Div(10, 5);
         assert result == 2;
-        ssertEquals(result, calculator.Div(10, 5));
+        assertEquals(result, calculator.Div(10, 5));
     }
     @Test
     public void testMod() {
         Calculator calculator = new Calculator();
         int result = calculator.mod(10, 5);
-        ssertEquals(result, calculator.Mod(10, 5));
+        assertEquals(result, calculator.Mod(10, 5));
         assert result == 0;
     }
 }
